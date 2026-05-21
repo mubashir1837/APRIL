@@ -1,15 +1,9 @@
 import java.util.Scanner;
 
-/**
- * Main class providing a command-line interface for the Library Catalog system.
- * Demonstrates usage of generic classes GenericCatalog and LibraryItem.
- */
-
 public class Main {
 
     public static void main(String[] args) {
 
-        // Create a generic catalog with Integer IDs
         GenericCatalog<Integer> catalog = new GenericCatalog<>();
         Scanner sc = new Scanner(System.in);
 
