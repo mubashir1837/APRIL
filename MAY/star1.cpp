@@ -2,10 +2,8 @@
 using namespace std;
 
 int main(){
-    for (int i = 1; i <= 20; i++){
-        for(int j = i; j <= 20; j++){
-            cout << "*";
-        };
+    for (int i = 1; i <= 10; i++){
+        cout << "Iqra";
         cout << endl;
     }
 }
